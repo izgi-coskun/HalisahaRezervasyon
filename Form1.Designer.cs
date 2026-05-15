@@ -61,7 +61,7 @@
             // 
             // btnMusteri
             // 
-            btnMusteri.Location = new Point(3, 38);
+            btnMusteri.Location = new Point(3, 45);
             btnMusteri.Name = "btnMusteri";
             btnMusteri.Size = new Size(200, 45);
             btnMusteri.TabIndex = 3;
@@ -77,6 +77,7 @@
             btnSaha.TabIndex = 4;
             btnSaha.Text = "Saha İşlemleri";
             btnSaha.UseVisualStyleBackColor = true;
+            btnSaha.Click += btnSaha_Click;
             // 
             // btnRezervasyon
             // 
@@ -86,6 +87,7 @@
             btnRezervasyon.TabIndex = 5;
             btnRezervasyon.Text = "Rezervasyon İşlemleri";
             btnRezervasyon.UseVisualStyleBackColor = true;
+            btnRezervasyon.Click += button3_Click;
             // 
             // btnOdeme
             // 
@@ -95,6 +97,7 @@
             btnOdeme.TabIndex = 6;
             btnOdeme.Text = "Ödeme İşlemleri";
             btnOdeme.UseVisualStyleBackColor = true;
+            btnOdeme.Click += btnOdeme_Click;
             // 
             // button6
             // 
@@ -113,6 +116,7 @@
             btnDetay.TabIndex = 8;
             btnDetay.Text = "Rezervasyon Detayları";
             btnDetay.UseVisualStyleBackColor = true;
+            btnDetay.Click += btnDetay_Click;
             // 
             // btnCikis
             // 
@@ -122,6 +126,7 @@
             btnCikis.TabIndex = 9;
             btnCikis.Text = "Çıkış";
             btnCikis.UseVisualStyleBackColor = true;
+            btnCikis.Click += btnCikis_Click;
             // 
             // Form1
             // 

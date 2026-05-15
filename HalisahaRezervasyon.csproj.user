@@ -7,5 +7,17 @@
     <Compile Update="frmMusteriler.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmOdeme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmRezervasyon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmRezervasyonDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSahalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
